@@ -6,7 +6,7 @@ from src.tracker import draw_tracks, build_tracker
 import onnxruntime
 
 MODEL_PATH = "models/yolo26n.onnx"
-confidence = 0.5
+confidence = 0.4
 class_id   = 0
 
 def main():
@@ -20,7 +20,7 @@ def main():
     prev_time = time.time()
 
     while cap.isOpened():
-        ret, frame = cap.read()
+        ret, frame =cap.read()
         if not ret:
             break
         current_time = time.time()

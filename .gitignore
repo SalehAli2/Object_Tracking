@@ -1,0 +1,19 @@
+# Environment
+MyEnv/
+venv/
+
+# Model weights
+models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.csv
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
