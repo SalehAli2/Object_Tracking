@@ -17,6 +17,7 @@ Real-time object detection and tracking using YOLOv26 + ONNX Runtime + ByteTrack
 - PyTorch
 
 ## Project Structure
+```
 object-tracking/
 ├── models/          ← place yolo26n.onnx here
 ├── src/
@@ -28,6 +29,7 @@ object-tracking/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ## Setup
 ```bash
