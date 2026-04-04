@@ -18,13 +18,16 @@ Real-time object detection and tracking using YOLOv26 + ONNX Runtime + ByteTrack
 
 ## Project Structure
 object-tracking/
-├── models/         
+├── models/          ← place yolo26n.onnx here
 ├── src/
+│   ├── __init__.py
 │   ├── detector.py  ← preprocessing and detection
 │   ├── tracker.py   ← tracking and visualization
 │   └── utils.py     ← video I/O utilities
 ├── main.py          ← entry point
-└── requirements.txt
+├── requirements.txt
+├── .gitignore
+└── README.md
 
 ## Setup
 ```bash
