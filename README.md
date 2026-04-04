@@ -45,8 +45,6 @@ Download `yolo26n.onnx` and place it in the `models/` folder.
 python main.py
 ```
 
-Press `q` to quit.
-
 ## Model
 - YOLOv26n exported to ONNX format
 - Input: 640x640
