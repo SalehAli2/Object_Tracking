@@ -38,7 +38,13 @@ cd Object_Tracking
 pip install -r requirements.txt
 ```
 
-Download `yolo26n.onnx` and place it in the `models/` folder.
+Download `yolo26n.onnx` by exporting it yourself:
+```python
+from ultralytics import YOLO
+model = YOLO('yolo26n.pt')
+model.export(format='onnx', opset=17)
+```
+Place the exported file in the `models/` folder.
 
 ## Run
 ```bash
